@@ -2,7 +2,6 @@ import React from 'react'
 import './Card.css'
 import { Link } from 'react-router-dom'
 
-
 const compare = (a, b) => {
   const bandA = a.Year
   const bandB = b.Year
@@ -18,11 +17,8 @@ const compare = (a, b) => {
 
 function Cardy({ data }) {
   return (
-
     <div className="row">
-
       {console.log(data.sort(compare))}
-
       <div className="row__movies">
         {data.map(movie => (
           <div className="row__container">
