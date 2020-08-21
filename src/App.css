@@ -1,16 +1,27 @@
+*{
+  margin: 0;
+}
 .App {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #111111 74%);
+}
+
+.flex {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container{
+  position: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.error {
+  position: absolute;
+  top: 150px;
+  color: white;
+  font-weight: bold;
+  font-family: Ubuntu;
 }
 
 .App-header {
@@ -23,16 +34,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.form-control {
+  background: linear-gradient(to bottom right, #ff4e00 0%, #ec9f05 70%);
 
-.App-link {
-  color: #61dafb;
+  padding: 10px;
+  padding-left: 17px;
+  width: 350px;
+  height:50px;
+  margin-top: 65px;
+  position: fixed;
+  font-weight:inherit;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 10px;
+  border: 0px solid black;
+  font-size: 27px;
+  font-family: Arial;
+
+
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:darkslategrey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

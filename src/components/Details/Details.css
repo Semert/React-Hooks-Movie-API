@@ -1,0 +1,78 @@
+.detail {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background: linear-gradient(to bottom left, #ff4e00 35%, #ec9f05 59%)
+}
+
+.detail__movies {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.detail__movie {
+    width: 500px;
+    object-fit: contain;
+    transition: transform 450ms;
+    margin-right: 20px;
+    height: 500px;
+    border-radius:500px;
+}
+
+.detail__movie:hover {
+    transform: scale(1.05);
+}
+
+.detail__movie__title {
+    color: white;
+    font-weight: bold;
+    font-family: Ubuntu;
+    margin: 10px;
+}
+
+.detail_movie_Year {
+    color: black;
+    font-weight: bolder;
+    font-family: Ubuntu;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.detail__button {
+    color: black;
+    background-color:bisque;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 13px;
+    bottom: 0;
+    width: 250px;
+}
+
+.detail__button:hover {
+    transform: scale(1.1);
+    background-color: #111;
+    color:white;
+}
+
+.detail__all{
+    margin-top: 50px;
+}
+
+.detail__log{
+display: flex;
+flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.detail__color{
+    color:white;
+}
+
+.detail__size{
+font-weight: bold;
+    font-size:23px ;
+}
