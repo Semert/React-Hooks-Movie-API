@@ -1,4 +1,7 @@
 
+![Adsız3](https://user-images.githubusercontent.com/44974863/92707501-04ba1200-f35e-11ea-88f7-7ff05857956a.png)
+![Adsız4](https://user-images.githubusercontent.com/44974863/92707509-0552a880-f35e-11ea-8b59-9b3f5984e521.png)
+
 ### In this project
 
 It is desired to develop a SPA where the user can list movies and view their detail.
