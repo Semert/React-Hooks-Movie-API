@@ -1,6 +1,6 @@
+![Adsız3](https://user-images.githubusercontent.com/44974863/92876609-ff6acf00-f412-11ea-93ca-820b2bac7132.png)
+![Adsız4](https://user-images.githubusercontent.com/44974863/92876613-009bfc00-f413-11ea-8988-b1a3e8c62b6f.png)
 
-![Adsız3](https://user-images.githubusercontent.com/44974863/92707501-04ba1200-f35e-11ea-88f7-7ff05857956a.png)
-![Adsız4](https://user-images.githubusercontent.com/44974863/92707509-0552a880-f35e-11ea-8b59-9b3f5984e521.png)
 
 ### In this project
 
